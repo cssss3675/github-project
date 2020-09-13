@@ -1,0 +1,45 @@
+From 43a1121322e95c0f3ad959b022f167e7eec9b263 Mon Sep 17 00:00:00 2001
+From: "DESKTOP-7Q09H3M\\nt110" <nt110269@gmail.com>
+Date: Sun, 13 Sep 2020 21:46:38 +0900
+Subject: [PATCH] Commit By Seokwoo
+
+---
+ .project                                        |  1 +
+ src/main/webapp/WEB-INF/views/testBySeokwoo.jsp | 12 ++++++++++++
+ 2 files changed, 13 insertions(+)
+ create mode 100644 src/main/webapp/WEB-INF/views/testBySeokwoo.jsp
+
+diff --git a/.project b/.project
+index ce52fbd..6bb8007 100644
+--- a/.project
++++ b/.project
+@@ -37,6 +37,7 @@
+ 		</buildCommand>
+ 	</buildSpec>
+ 	<natures>
++		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+ 		<nature>org.springframework.ide.eclipse.core.springnature</nature>
+ 		<nature>org.eclipse.jdt.core.javanature</nature>
+ 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+diff --git a/src/main/webapp/WEB-INF/views/testBySeokwoo.jsp b/src/main/webapp/WEB-INF/views/testBySeokwoo.jsp
+new file mode 100644
+index 0000000..ce046b5
+--- /dev/null
++++ b/src/main/webapp/WEB-INF/views/testBySeokwoo.jsp
+@@ -0,0 +1,12 @@
++<%@ page language="java" contentType="text/html; charset=UTF-8"
++    pageEncoding="UTF-8"%>
++<!DOCTYPE html>
++<html>
++<head>
++<meta charset="UTF-8">
++<title>Insert title here</title>
++</head>
++<body>
++
++</body>
++</html>
+\ No newline at end of file
+-- 
+2.28.0.windows.1
+
